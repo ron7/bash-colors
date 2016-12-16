@@ -1,0 +1,4 @@
+#!/bin/bash
+#echo -e "\e[1;31m LOOP \e[00m \e[2;31m LOOP \e[00m \e[3;31m LOOP \e[00m \e[4;31m LOOP \e[00m \e[5;31m LOOP \e[00m \e[6;31m LOOP \e[00m \e[7;31m LOOP \e[00m"
+for z in `seq 30 48`; do echo -e "\e[1;"$z"m LOOP 1,$z \e[00m \e[2;"$z"m LOOP 2,$z \e[00m \e[3;"$z"m LOOP 3,$z \e[00m \e[4;"$z"m LOOP 4,$z \e[00m \e[5;"$z"m LOOP 5,$z \e[00m \e[6;"$z"m LOOP 6,$z \e[00m \e[7;"$z"m LOOP 7,$z \e[00m"; done
+echo Example: echo -e "\e[1;31m LOOP \e[00m"
